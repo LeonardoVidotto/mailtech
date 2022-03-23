@@ -3,7 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
-    background-image: url('/assets/images/copylogo.png');
+    background-image: url('https://leonardovidotto.github.io/mailtech/assets/images/copylogo.png');
     background-size: cover;
 
 }
@@ -129,7 +129,7 @@ aside{
 /*principal*/
 main{
     grid-area: m;
-    background-image: url('/assets/images/copylogo.png');
+    background-image: url('https://leonardovidotto.github.io/mailtech/assets/images/copylogo.png');
     background-size: cover;
     
     
