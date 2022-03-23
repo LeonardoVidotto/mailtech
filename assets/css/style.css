@@ -1,0 +1,218 @@
+body{
+    margin: 5px 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    background-image: url('/assets/images/copylogo.png');
+    background-size: cover;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 15vh 75vh 10vh;
+    grid-template-areas: 
+        "h h h h h h h"
+        "as m m m m m m"
+        "as f f f f f f"
+    ;
+
+
+}
+/*cabeçalho*/
+header{
+    background-color: rgba(129, 37, 40, 0.8);
+    background-color: rgba(72, 35, 153, 0.8);
+    
+    grid-area: h;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.container--header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 25%;
+}
+.logo img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.menu ul{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 40px;
+}
+.menu li a{
+    text-decoration: none;
+    color: #000;
+    padding: 3px 40px;
+}
+.menu li a:hover{
+    background-color: #120e0d;
+    opacity: 0.5;
+    color: #32278a;
+}
+.menu li a:hover::before{
+    content: '';
+    display: block;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -4px;
+    border: 15px solid;
+    border-color: transparent #120e0d transparent transparent;
+}
+
+
+/*lateral*/
+aside{
+    background-color: rgba(129, 37, 40, 0.8);
+    background-color: rgba(72, 35, 153, 0.8);
+    grid-area: as;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.aside--login,
+.aside--socialmedia,
+.aside--fb,
+.aside--whatsapp{
+    margin-top: 50px;
+    font-weight: 500;
+}
+.aside--socialmedia,
+.aside--login{
+    font-weight: 700;
+}
+.aside--loginicon,
+.aside--socialmediaicon,
+.aside--instagram,
+.aside--instagramicon,
+.aside--fbicon,
+.aside--whatsappicon{
+    margin-top: 10px;
+}
+.aside--login,
+.aside--loginicon,
+.aside--socialmedia,
+.aside--instagram,
+.aside--instagramicon,
+.aside--fb,
+.aside--fbicon,
+.aside--whatsapp,
+.aside--whatsappicon{
+    display: flex;
+    justify-content: center;
+}
+.aside--instagramicon img,
+.aside--fbicon img,
+.aside--whatsappicon img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/*principal*/
+main{
+    grid-area: m;
+    background-image: url('/assets/images/copylogo.png');
+    background-size: cover;
+    
+    
+}
+.main--section{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.section--left,
+.section--right,
+.section--mid{
+    background-color: rgba(129, 37, 40, 0.3);
+    background-color: rgba(72, 35, 153, 0.3);
+    width: 250px;
+    height: 400px;
+    border-radius: 15%;
+    text-align: center;
+}
+.tittle--left,
+.tittle--right,
+.tittle--mid{
+    font-weight: 700;
+    margin-top: 15px;
+    color: #FFF;
+}
+.text--left,
+.text--right,
+.text--mid{
+    margin-top: 15px;
+    font-weight: 500;
+    color: #FFF;
+}
+.order--left,
+.order--right,
+.order--mid{
+    margin-top: 20px;
+}
+.downloading,
+.readmore{
+    margin-top: 10px;
+}
+.downloading img,
+.readmore img{
+    width: 25px;
+    height: 25px;
+}
+.order--left a,
+.order--right a,
+.order--mid a{
+    text-decoration: none;
+    color: #d7ca82;
+    padding: 5px 15px;
+    background-color: #482399;
+    border-radius: 10%;
+}
+.order--left a:hover,
+.order--right a:hover,
+.order--mid a:hover{
+    background-color: #120e0d;
+    opacity: 0.5;
+    color: #32278a;
+}
+
+
+
+/*rodapé*/
+footer{
+    background-color: #000;
+    grid-area: f;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  
+}
+footer p{
+    color: #482399;
+    margin-right: 30px;
+}
