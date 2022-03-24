@@ -23,7 +23,6 @@ body{
 header{
     background-color: rgba(129, 37, 40, 0.8);
     background-color: rgba(72, 35, 153, 0.8);
-    
     grid-area: h;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -144,8 +143,6 @@ main{
     grid-area: m;
     background-image: url('https://leonardovidotto.github.io/mailtech/assets/images/copylogo.png');
     background-size: cover;
-    
-    
 }
 .main--section{
     background-color: rgba(0, 0, 0, 0.5);
@@ -155,7 +152,6 @@ main{
     justify-content: space-evenly;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    
 }
 .section--left,
 .section--right,
@@ -223,7 +219,6 @@ footer{
     justify-content: flex-end;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-  
 }
 footer p{
     color: #482399;
