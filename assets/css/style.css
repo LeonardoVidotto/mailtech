@@ -75,6 +75,19 @@ header{
     border: 15px solid;
     border-color: transparent #120e0d transparent transparent;
 }
+input[type="text"]{
+    outline: 0;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #241f1f;
+}
+.lupa img{
+    width: 20px;
+    height: 20px;
+    margin-left: -50px;
+    margin-top: 5px;
+    background-color: transparent;
+}
 
 
 /*lateral*/
