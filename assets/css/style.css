@@ -79,6 +79,7 @@ input[type="text"]{
     border-radius: 5px;
     padding: 5px;
     background-color: #241f1f;
+    border: none;
 }
 .lupa img{
     width: 20px;
