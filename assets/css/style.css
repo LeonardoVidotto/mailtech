@@ -80,6 +80,7 @@ input[type="text"]{
     padding: 5px;
     background-color: #241f1f;
     border: none;
+    color: #FFF;
 }
 .lupa img{
     width: 20px;
